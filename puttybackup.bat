@@ -35,3 +35,5 @@ REM The /a is for ASCII output, if you omit the /a the file will be twice a larg
 
 regedit /ea %SYSTEMDRIVE%\%bck_file% %regkey%
 regedit /ea "%USERPROFILE%\My Documents\My Dropbox\%bck_file%" %regkey%
+
+endlocal
